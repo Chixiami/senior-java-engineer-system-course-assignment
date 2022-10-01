@@ -1,0 +1,9 @@
+
+Z	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(òœˆ
+c
+java:S53619"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Èááşÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(Ì½áúÿÿÿÿ
+Q	java:S125M"<This block of commented-out lines of code should be removed.(–Õ¡Ä
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(ºæÔÉ
+I
+java:S2755u"3Disable access to external entities in XML parsing.(ÄùÙî
