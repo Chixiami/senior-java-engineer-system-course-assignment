@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.myhero.dao.UserMapper">
+    <select id="findAll" resultType="com.myhero.pojo.User">
+        select * from t_user;
+    </select>
+</mapper>

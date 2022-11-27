@@ -1,5 +1,6 @@
 package com.myhero.frame.openapi;
 
+import com.myhero.frame.core.Executor;
 import com.myhero.frame.core.entity.Configuration;
 
 import java.util.List;
@@ -27,13 +28,12 @@ public class SqlSessionImpl implements SqlSession{
      * 查询所有用户
      * T 代表泛型类型，T(type缩写)
      *
-     * @param sql
+     * @param statement
      */
     @Override
-    public <T> List<T> selectList(String sql) throws Exception {
+    public <T> List<T> selectList(String statement) throws Exception {
+        Executor executor = new Executor(configuration);
 
-
-
-        return null;
+        return (List<T>) executor.executeQuery(statement);
     }
 }
