@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.abc.HerobatisTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.609 s <<< FAILURE! - in com.abc.HerobatisTests
+selectList  Time elapsed: 0.001 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.abc.HerobatisTests': Unsatisfied dependency expressed through field 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.myhero.frame.core.factory.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.myhero.frame.core.factory.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

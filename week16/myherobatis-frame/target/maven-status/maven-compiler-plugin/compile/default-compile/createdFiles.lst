@@ -1,0 +1,7 @@
+com\myhero\frame\core\entity\SqlSource.class
+com\myhero\frame\core\factory\SqlSessionFactoryBuilder.class
+com\myhero\frame\openapi\SqlSession.class
+com\myhero\frame\core\Executor.class
+com\myhero\frame\core\entity\Configuration.class
+com\myhero\frame\openapi\SqlSessionImpl.class
+com\myhero\frame\core\factory\SqlSessionFactory.class
